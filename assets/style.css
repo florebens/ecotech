@@ -105,3 +105,7 @@ h1 {
 .project-body { margin: 2rem 0; line-height: 1.7; }
 .source { margin-top: 2rem; }
 .back { display: inline-block; margin-top: 2rem; font-size: 0.9rem; color: #1a1a1a; }
+
+.meta-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
+.meta-table td { padding: 0.6rem 0.8rem; border: 1px solid #1a1a1a; font-size: 0.9rem; }
+.meta-table td:first-child { font-weight: bold; width: 30%; }
