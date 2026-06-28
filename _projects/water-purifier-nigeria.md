@@ -1,5 +1,5 @@
 ---
-title: Amateur Water Purifier
+title: 50-Cent Water Purifier
 location: Nigeria
 category: inventions
 builder: Anonymous HS student
