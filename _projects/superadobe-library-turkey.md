@@ -1,6 +1,7 @@
 ---
 title: Superadobe Children's Library
-location: Kahramanmaraş, Turkey
+city: Kahramanmaraş
+country: Turkey
 category: structures
 builder: Community builders
 year: 2024
