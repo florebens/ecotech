@@ -44,13 +44,14 @@ layout: null
   <script>
     const cards = Array.from(document.querySelectorAll('.card'));
     const data = cards.map(c => ({
-      el: c,
-      title: c.querySelector('h2').innerText,
-      desc: c.querySelector('.desc').innerText,
-      cat: c.dataset.cat
-    }));
+  el: c,
+  title: c.querySelector('h2').innerText,
+  desc: c.querySelector('.desc').innerText,
+  meta: c.querySelector('.meta').innerText,
+  cat: c.dataset.cat
+}));
 
-    const fuse = new Fuse(data, { keys: ['title', 'desc'], threshold: 0.3 });
+const fuse = new Fuse(data, { keys: ['title', 'desc', 'meta'], threshold: 0.3 });
 
     let activeCat = 'all';
 
