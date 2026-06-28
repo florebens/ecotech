@@ -35,8 +35,7 @@ layout: null
       <article class="card" data-cat="{{ project.category }}">
         <span class="cat">{{ project.category }}</span>
         <h2><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
-        <p class="meta">{{ project.location }}</p>
-        <p class="desc">{{ project.description }}</p>
+        <p class="meta">{{ project.city }}{% if project.city %}, {% endif %}{{ project.country }}</p>        <p class="desc">{{ project.description }}</p>
       </article>
       {% endfor %}
     </div>
