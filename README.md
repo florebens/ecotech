@@ -18,7 +18,7 @@ This database values passive energy solutions, vernacular architecture, self-sus
 
 ## Browse
 
-Visit the live database: [florebens.github.io/echotech](https://florebens.github.io/echotech)
+Visit the live database: [florebens.github.io/ecotech](https://florebens.github.io/ecotech)
 
 ## License
 
